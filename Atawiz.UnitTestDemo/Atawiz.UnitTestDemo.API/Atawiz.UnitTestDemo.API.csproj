@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Atawiz.UnitTestDemo.Core\Atawiz.UnitTestDemo.Core.csproj" />
+    <ProjectReference Include="..\Atawiz.UnitTestDemo.EF\Atawiz.UnitTestDemo.EF.csproj" />
+  </ItemGroup>
+
+</Project>
